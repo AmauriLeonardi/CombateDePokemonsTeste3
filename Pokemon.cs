@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pooPokemonApp
+namespace CombateDePokemons
 {
     public class Pokemon
     {
@@ -14,10 +14,10 @@ namespace pooPokemonApp
             this.caracteristicas = "";
         }
 
-        public Pokemon(string nome, string caracteristica)
+        public Pokemon(string nome, string caracteristicas)
         {
             this.nome = nome;
-            this.caracteristicas = caracteristica;
+            this.caracteristicas = caracteristicas;
         }
 
         private string nome;
